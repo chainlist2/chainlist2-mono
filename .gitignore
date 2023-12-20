@@ -4,3 +4,7 @@ package-lock.json
 *.log*
 .DS_Store
 demo/node_modules
+chainlist2/node_modules
+chainlist2/dist
+client/dist
+client/node_modules
