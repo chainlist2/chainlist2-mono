@@ -1,0 +1,82 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add your custom styles here */
+
+/* Header styles */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-x-8 {
+  margin-right: 2rem;
+}
+
+/* Navigation styles */
+nav ul {
+  display: flex;
+  margin-right: -0.75rem;
+}
+
+nav ul li {
+  margin-right: 0.75rem;
+}
+
+a {
+  color: #475569;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1e293b;
+}
+
+/* Button styles */
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
