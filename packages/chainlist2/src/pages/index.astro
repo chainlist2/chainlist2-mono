@@ -1,11 +1,15 @@
 ---
 import Search from '../components/Search.jsx';
+import Header from '../components/Header.tsx';
+import '../styles.css';
+
 const someProps = {
 	count: 0,
 };
 import Layout from '../layouts/Layout.astro';
 ---
 <Layout title='ming'>
+ <Header />
 	<Search {...someProps} client:visible>
 				<h1>ChainList-Search</h1>
 	</Search>

@@ -1,0 +1,42 @@
+---
+import Button from "../components/button";
+import '../styles.css';
+---
+
+<header class="bg-white py-4 px-6 flex justify-between items-center">
+  <div class="flex items-center space-x-8">
+    <img alt="Logo" class="h-8" src="" />
+    <nav>
+      <ul class="flex space-x-4">
+        <li>
+          <a class="text-gray-700 hover:text-gray-900" href="/">
+            Home
+          </a>
+        </li>
+        <li>
+          <a class="text-gray-700 hover:text-gray-900" href="/explore">
+            Explore Lists
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="flex items-center space-x-4">
+    <nav>
+      <ul class="flex space-x-4">
+        <li>
+          <a class="text-gray-700 hover:text-gray-900" href="#">
+            About
+          </a>
+        </li>
+        <li />
+      </ul>
+    </nav>
+    <Button class="bg-red-500 text-white px-4 py-2 rounded-full" variant="default">
+      Log in
+    </Button>
+    <Button class="bg-red-500 text-white px-4 py-2 rounded-full" variant="default">
+      Sign up
+    </Button>
+  </div>
+</header>
