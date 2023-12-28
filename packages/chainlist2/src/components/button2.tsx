@@ -12,11 +12,11 @@ const Button: React.FC<ButtonProps> = ({ className, variant = 'default', onClick
   const getButtonStyle = () => {
     switch (variant) {
       case 'primary':
-        return { backgroundColor: '#3490dc', color: '#ffffff', fontSize: '20px' };
+        return { backgroundColor: '#3490dc', color: '#ffffff', fontSize: '20px' }; // Adjust font size as needed
       case 'secondary':
-        return { backgroundColor: '#718096', color: '#ffffff', fontSize: '20px' };
+        return { backgroundColor: '#718096', color: '#ffffff', fontSize: '20px' }; // Adjust font size as needed
       default:
-        return { backgroundColor: '#e53e3e', color: '#ffffff', fontSize: '20px' };
+        return { backgroundColor: 'white', color: '#000000', fontSize: '20px' }; // Adjust font size as needed
     }
   };
 
